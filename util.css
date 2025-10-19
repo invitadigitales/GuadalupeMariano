@@ -147,9 +147,17 @@
     --bg-color: 0, 0, 0; /* Negro */
     background-color: rgb(var(--bg-color));
 }
+.bg_verde{
+    --bg-color: 46, 71, 49; /* Negro */
+    background-color: rgb(var(--bg-color));
+}
 
 .bg_grey {
     --bg-color: 184, 184, 184; /* Gris */
+    background-color: rgb(var(--bg-color));
+}
+.bg_ros_black{
+    --bg-color: 209, 148, 129;
     background-color: rgb(var(--bg-color));
 }
 
@@ -158,7 +166,10 @@
     background-color: rgb(var(--bg-color));
 }
 
-
+.bg_ross{
+    --bg-color: 224, 217, 209;
+    background-color: rgb(var(--bg-color));
+}
 
 /* Clases de opacidad que usan la variable --bg-color */
 .bg_opacity_10 {
@@ -204,7 +215,9 @@
 .color_green {
     color: #72892f;
 }
-
+.color_verde{
+    color: #2E4731;
+}
 
 
 .jc_between{
